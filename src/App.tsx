@@ -1,12 +1,13 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import CustomLink from './CustomLink';
 import { styled } from '@linaria/react';
+import React from 'react';
+import './App.css';
 import cover from './cover';
+import CustomLink from './CustomLink';
+import logo from './logo.svg';
 
 const Link = styled(CustomLink)`
   color: #61dafb;
+  ${cover()}
 `
 
 function App() {
