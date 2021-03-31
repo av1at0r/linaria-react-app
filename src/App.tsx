@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import CustomLink from './CustomLink';
 import { styled } from '@linaria/react';
+import cover from './cover';
 
 const Link = styled(CustomLink)`
   color: #61dafb;
